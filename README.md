@@ -3,11 +3,11 @@
 ## Hygiene factors
 
 ### Readability for search engines bots
-* [Robots.txt](robots.txt.md)
+* [Robots.txt](robots-txt.md)
 * [Sitemap](sitemap.md)
 * [Canonicalization](canonicalization.md)
-* [HTML Compression](html-compression.md)
-* [HTML Compression](html-compression.md)
+* [Noindex Meta Tag](noindex.md)
+* [Navigation Structure](navigation.md)
 
 ### Display on search engines	
 
