@@ -1,3 +1,3 @@
 # SEO checklist
 
-* [[html-compression.md]]
+* [HTML Compression](html-compression.md)
