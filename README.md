@@ -16,7 +16,7 @@
 * [Open graph properties](open-graph.md)
 * [Image alt tags](image-alt-tags.md)
 * [Microdata schema](microdata-schema.md)
-* [Meta titles](meta-titles.md)
+* [Page title](page-title.md)
 * [Meta description](meta-description.md)
 * [Heading tags](heading-tags.md)
 
