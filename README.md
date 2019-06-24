@@ -4,6 +4,7 @@
 
 ### Readability for search engines bots
 * [Canonicalization](canonicalization.md)
+* [Crawl budget](crawl-budget.md)
 * [Navigation structure](navigation.md)
 * [Noindex meta tag](noindex.md)
 * [Robots.txt](robots-txt.md)
