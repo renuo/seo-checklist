@@ -54,7 +54,7 @@
 
 ### Other
 * [Backlinks](backlinks.md)
-* [Favicons](facivons.md)
+* [Favicons](favicons.md)
 * [Media queries](media-queries.md)
 * [Social media linking](social-media-linking.md)
 
