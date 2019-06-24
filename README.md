@@ -51,7 +51,6 @@
 * [Backlinks](backlinks.md)
 * [Favicons](facivons.md)
 * [Media queries](media-queries.md)
-* [Plaintext emails](plaintext-emails.md)
 * [Social media linking](social-media-linking.md)
 
 # Relevant links
