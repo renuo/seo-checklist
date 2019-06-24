@@ -2,5 +2,5 @@
 
 * Use small images (<200kb) that load quickly.
 * Use descriptive filenames in target language.
-* Use alt-tags for images that need to be found and help to understand the content.
-* Use keyword in alt-tag in target language.
+* Use [image alt tags](image-alt-tags.md) for images to be found and better understood.
+* Use keywords in alt-tags in target language.
