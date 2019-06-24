@@ -1,6 +1,4 @@
 # JavaScript minification
-
-### About
 External JavaScript files must be minified. Minified files reduce page size and overall load time.
 
 ### To do
