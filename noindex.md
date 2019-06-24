@@ -1,3 +1,3 @@
-# Noindex Meta Tag
+# Noindex Tag
 
 no follow meta tag?
