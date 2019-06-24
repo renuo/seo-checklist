@@ -42,7 +42,7 @@
 * [Page size](page-size.md)
 * [Server side performance](server-side-performance.md)
 * [Site loading speed](site-loading-speed.md)
-* [URL redericts](url-redericts.md)
+* [URL redirects](url-redirects.md)
 
 ### On site user experience	(mobile friendliness)
 * [404 pages](404-pages.md)
