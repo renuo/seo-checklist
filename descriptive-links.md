@@ -3,4 +3,4 @@ Link descriptions, which are the clickable words in links, help users and search
 
 ### Best practice
 * Use descriptive links (e.g. "Today's menu" instead of "More").
-* [Article about it in Google Developer Tools](https://developers.google.com/web/tools/lighthouse/audits/descriptive-link-text)
+* View this article about it in the [Google Developer Tools](https://developers.google.com/web/tools/lighthouse/audits/descriptive-link-text).
