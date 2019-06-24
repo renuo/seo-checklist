@@ -45,6 +45,7 @@
 * [Broken links](broken-links.md)
 * [Content](content.md)
 * [Descriptive links](descriptive-links.md)
+* [Keywords](keywords.md)
 * [Responsive Wedesign](responsive-webdesign.md)
 
 ### Other
