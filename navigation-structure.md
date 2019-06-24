@@ -1,4 +1,4 @@
-# Navigation
+# Navigation structure
 Users and search engines want to find relevant content as fast as possible. A clean navigation structure helps to indicate what information is valuable and bots can that way easily understand the hierarchy of important pages and less important ones. Also a good navigation can influence the results of sitelinks in the search results.
 
 ### Best practice
