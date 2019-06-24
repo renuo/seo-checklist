@@ -28,7 +28,7 @@
 ### Performance and speed
 * [CSS minification](css-minification.md)
 * [Font formats](font-formats.md)
-* [HTML Compression](html-compression.md)
+* [HTML compression](html-compression.md)
 * [Image caching](image-caching.md)
 * [Image size](image-size.md)
 * [Inline CSS](inline-css.md)
