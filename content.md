@@ -1,9 +1,10 @@
 # Content
-* Meaningful content
-* At least 300 words per page
+* Create meaningful content
+* Use at least 300 words per page
 
 ## Keywords
-* Max. 1 Keyword per page
+* Use max. 1 Keyword per page
+* Don’t use any meta keywords, as they are not used by google anymore and give competitors data about the keywords you are targeting, see: [Webmaster Central Blog](https://webmasters.googleblog.com/2009/09/google-does-not-use-keywords-meta-tag.html)
 
 ### Keyword density
-[Keyword density analysis tool](https://imninjas.com/seo-tools/keyword-density/)
+* Check your keyword density [Keyword density analysis tool](https://imninjas.com/seo-tools/keyword-density/)
