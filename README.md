@@ -26,6 +26,7 @@
 ## Dynamic factors
 
 ### Performance and speed
+* [CSS caching](css-caching.md)
 * [CSS minification](css-minification.md)
 * [Font formats](font-formats.md)
 * [HTML compression](html-compression.md)
