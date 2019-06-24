@@ -32,6 +32,7 @@
 * [Image caching](image-caching.md)
 * [Image size](image-size.md)
 * [Inline CSS](inline-css.md)
+* [JavaScript caching](javascript-caching.md)
 * [JavaScript minification](javascript-minification.md)
 * [Lazy loading](lazy-loading.md)
 * [Page caching](page-caching.md)
