@@ -44,6 +44,7 @@
 * [Broken links](broken-links.md)
 * [Content](content.md)
 * [Descriptive links](descriptive-links.md)
+* [Responsive Wedesign](responsive-webdesign.md)
 
 ### Other
 * [Favicons](facivons.md)
