@@ -13,7 +13,7 @@ The entry "noindex" in the meta tags tells a search engine robot that the visite
 
 ### Best practice
 * Use this tag for internal search result pages, double category pages, copyrighted content or paginated pages.
-* Check if it works: Google the specific URL you don’t want to be indexed. Enter *site:www.meinedomain.de* in Google.
+* Check if it works: Google the specific URL you don’t want to be indexed. Enter *site:www.meinedomain.ch* in Google.
 
 ### Note
 The meta tag "noindex" is only there to inform search engines no to index a specific page. If specific pages should not be crawled, the use of "disallow" in the robots.txt file is recommended.
