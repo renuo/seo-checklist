@@ -1,4 +1,4 @@
-# Noindex Tag
+# Noindex tag
 The entry "noindex" in the meta tags tells a search engine robot that the visited page should not be included in the index. That way you can influence which URLs are to be indexed and which are not. 
 
 ```
