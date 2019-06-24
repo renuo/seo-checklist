@@ -49,3 +49,6 @@
 * [Plaintext emails](plaintext-emails.md)
 * [Media queries](media-queries.md)
 * [Favicons](facivons.md)
+
+# Relevant links
+* [SEO GOogle Search Console]https://support.google.com/webmasters/answer/7451184
