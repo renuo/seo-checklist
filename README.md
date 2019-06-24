@@ -13,7 +13,6 @@
 * [Heading tags](heading-tags.md)
 * [Image alt tags](image-alt-tags.md)
 * [Meta description](meta-description.md)
-* [Microdata schema](microdata-schema.md)
 * [Open graph properties](open-graph.md)
 * [Page title](page-title.md)
 * [SEO friendly URLs](seo-friendly-urls.md)
