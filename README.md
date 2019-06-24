@@ -51,6 +51,7 @@
 * [Favicons](facivons.md)
 * [Media queries](media-queries.md)
 * [Plaintext emails](plaintext-emails.md)
+* [Social media linking](social-media-linking.md)
 
 # Relevant links
 * [SEO Google Search Console](https://support.google.com/webmasters/answer/7451184)
