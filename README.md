@@ -58,4 +58,6 @@
 * [Social media linking](social-media-linking.md)
 
 # Relevant links
-* [SEO Google Search Console](https://support.google.com/webmasters/answer/7451184)
+* [Google SEO Starter Guide](https://support.google.com/webmasters/answer/7451184)
+* [Official news on crawling and indexing sites for the Google index](https://webmasters.googleblog.com/)
+* [SEO Cheat Sheet](https://d2eeipcrcdle6.cloudfront.net/seo-cheat-sheet.pdf)
