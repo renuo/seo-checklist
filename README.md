@@ -21,7 +21,7 @@
 
 ### Security
 * [Safe browsing](safe-browsing.md)
-* [Server signature](server-signture.md)
+* [Server signature](server-signature.md)
 
 ## Dynamic factors
 
