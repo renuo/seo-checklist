@@ -20,6 +20,7 @@
 * [Translated URLs](translated-urls.md)
 
 ### Security
+* [HTTPs](https.md)
 * [Safe browsing](safe-browsing.md)
 * [Server signature](server-signature.md)
 
