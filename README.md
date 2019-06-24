@@ -36,6 +36,7 @@
 * [Lazy loading](lazy-loading.md)
 * [Page caching](page-caching.md)
 * [Page size](page-size.md)
+* [Performace tests](performance-tests.md)
 * [Server side performance](server-side-performance.md)
 * [URL redericts](url-redericts.md)
 
