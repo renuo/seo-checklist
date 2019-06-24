@@ -1,0 +1,1 @@
+# Image alt tags
