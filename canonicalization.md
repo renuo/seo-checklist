@@ -2,7 +2,7 @@
 Canonicalization describes how a site can use slightly different URLs for the same page (e.g., if http://www.example.com and http://example.com displays the same page but do not resolve to the same URL). If this happens, search engines may be unsure about which URL is the correct one to index.
 
 ```
-<link rel="canonical" href="https://www.example.com/your-url/" />
+<link href="https://example.com/" rel="canonical" />
 ```
 
 ### Best practice
