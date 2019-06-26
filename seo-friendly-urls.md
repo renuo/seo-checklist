@@ -6,3 +6,4 @@ In order for URLs and links to be SEO friendly, they should contain keywords rel
 * Use hyphens as word separators.
 * Avoid URLs with Umlaute. Use ae, oe, ue, etc. instead, see: [Search Console Support](https://support.google.com/webmasters/forum/AAAA2Jdx3sUn_XASERbfzw/?hl=en&gpf=%23!msg%2Fwebmasters%2Fn_XASERbfzw%2FKt1fG7jKCQAJ&msgid=Kt1fG7jKCQAJ).
 * Use keywords in the URL in the target language.
+* When possible, place content on the same subdomain to preserve authority. (Recommended: https://example.com/blog, less ideal: https://blog.example.com)
