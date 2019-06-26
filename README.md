@@ -19,11 +19,15 @@
 * [SEO friendly URLs](seo-friendly-urls.md)
 * [Structured data](structured-data.md)
 * [Translated URLs](translated-urls.md)
+* [Favicons](favicons.md)
 
 ### Security
 * [HTTPs](https.md)
 * [Safe browsing](safe-browsing.md)
 * [Server signature](server-signature.md)
+
+### Other
+* [Social media linking](social-media-linking.md)
 
 ## Dynamic factors
 
@@ -50,13 +54,11 @@
 * [Content](content.md)
 * [Descriptive links](descriptive-links.md)
 * [Keywords](keywords.md)
+* [Media queries](media-queries.md)
 * [Responsive Wedesign](responsive-webdesign.md)
 
 ### Other
 * [Backlinks](backlinks.md)
-* [Favicons](favicons.md)
-* [Media queries](media-queries.md)
-* [Social media linking](social-media-linking.md)
 
 # Relevant links
 * [Google SEO Starter Guide](https://support.google.com/webmasters/answer/7451184)
