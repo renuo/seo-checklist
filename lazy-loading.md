@@ -1,3 +1,4 @@
 # Lazy loading
 
-https://developers.google.com/search/docs/guides/lazy-loading
+### Best practice
+* [Google Developers Guide](https://developers.google.com/search/docs/guides/lazy-loading)
