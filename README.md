@@ -21,6 +21,9 @@
 * [Translated URLs](translated-urls.md)
 * [Favicons](favicons.md)
 
+### On site user experience
+* [404 pages](404-pages.md)
+
 ### Security
 * [HTTPs](https.md)
 * [Safe browsing](safe-browsing.md)
@@ -48,12 +51,13 @@
 * [Site loading speed](site-loading-speed.md)
 * [URL redirects](url-redirects.md)
 
-### On site user experience	(mobile friendliness)
-* [404 pages](404-pages.md)
+### On site user experience
 * [Broken links](broken-links.md)
 * [Content](content.md)
 * [Descriptive links](descriptive-links.md)
 * [Keywords](keywords.md)
+
+### Mobile friendliness
 * [Media queries](media-queries.md)
 * [Responsive Wedesign](responsive-webdesign.md)
 
