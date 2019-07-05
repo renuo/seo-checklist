@@ -3,12 +3,12 @@
 ## Hygiene factors
 
 ### Readability for search engines bots
-* [Canonicalization](canonicalization.md)
-* [Crawl budget](crawl-budget.md)
-* [Navigation structure](navigation-structure.md)
-* [Noindex meta tag](noindex.md)
-* [Robots.txt](robots-txt.md)
-* [Sitemap](sitemap.md)
+- [ ] * [Canonicalization](canonicalization.md)
+- [ ] * [Crawl budget](crawl-budget.md)
+- [ ] * [Navigation structure](navigation-structure.md)
+- [ ] * [Noindex meta tag](noindex.md)
+- [ ] * [Robots.txt](robots-txt.md)
+- [ ] * [Sitemap](sitemap.md)
 
 ### Display on search engines	
 * [Heading tags](heading-tags.md)
