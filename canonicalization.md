@@ -1,7 +1,5 @@
 # Canonicalization
 
-## Description
-
 Canonicalization describes how a site can use slightly different URLs for the same page (e.g., if http://www.example.com and http://example.com displays the same page but do not resolve to the same URL). If this happens, search engines may be unsure about which URL is the correct one to index.
 
 Is good practice to place canonical links in the `head` to help Search Engines understand which URL is the original one.
