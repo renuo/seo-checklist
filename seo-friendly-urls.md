@@ -5,7 +5,7 @@ You should avoid the use of parameters when possible, as they make URLs less inv
 Google's suggestions for URL structure specify using hyphens or dashes (-) rather than underscores (_). 
 Unlike underscores, Google treats hyphens as separators between words in a URL.
 
-## Best pracitce
+## Best practices
 * Provide clean URLs without fragment identifiers (# or #!).
 * Use hyphens as word separators.
 * Avoid URLs with Umlaute. Use ae, oe, ue, etc. instead, see: [Search Console Support](https://support.google.com/webmasters/forum/AAAA2Jdx3sUn_XASERbfzw/?hl=en&gpf=%23!msg%2Fwebmasters%2Fn_XASERbfzw%2FKt1fG7jKCQAJ&msgid=Kt1fG7jKCQAJ).
