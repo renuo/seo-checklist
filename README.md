@@ -1,5 +1,13 @@
 # SEO checklist
 
+As a developer, you might not always think about SEO, while developing a new project. 
+
+This checklist is here for you and is meant as a reference for all the SEO aspects that should be checked before the go-live of a project.
+
+We suggest to read this once before starting a new project, to keep yourself up-to-date, and then again before the go-live, to double check and verify that all the points that matter are respected.
+
+Enjoy :tada:
+
 ## Hygiene factors
 
 ### Readability for search engines bots
