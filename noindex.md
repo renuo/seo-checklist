@@ -4,11 +4,14 @@ The entry `noindex` in the meta tags tells a search engine robot that the visite
 
 ```
 <!DOCTYPE html>
-<html><head>
-<meta name="robots" content="noindex" />
-(…)
-</head>
-<body>(…)</body>
+<html>
+  <head>
+    <meta name="robots" content="noindex" />
+    [...]
+  </head>
+  <body>
+    [...]
+  </body>
 </html>
 ```
 
