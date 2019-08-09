@@ -64,6 +64,7 @@ Enjoy :tada:
 - [ ] [Content](content.md)
 - [ ] [Descriptive links](descriptive-links.md)
 - [ ] [Keywords](keywords.md)
+- [ ] [Pagination](pagination.md)
 
 ### Mobile friendliness
 - [ ] [Media queries](media-queries.md)
