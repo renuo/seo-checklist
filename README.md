@@ -26,6 +26,7 @@ Enjoy :tada:
 - [ ] [Open graph properties](open-graph.md)
 - [ ] [SEO friendly URLs](seo-friendly-urls.md)
 - [ ] [Structured data](structured-data.md)
+- [ ] [Trailing slashes](trailing-slashes.md)
 - [ ] [Translated URLs](translated-urls.md)
 - [ ] [Favicons](favicons.md)
 
