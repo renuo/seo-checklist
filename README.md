@@ -32,6 +32,7 @@ Enjoy :tada:
 
 ### On site user experience
 - [ ] [404 pages](404-pages.md)
+- [ ] [mobile-friendly tap targets](mobile-friendly-tap-targets.md)
 
 ### Security
 - [ ] [HTTPs](https.md)
