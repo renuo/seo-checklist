@@ -16,6 +16,7 @@ Enjoy :tada:
 - [ ] [Navigation structure](navigation-structure.md)
 - [ ] [Noindex meta tag](noindex.md)
 - [ ] [Nofollow tag](no-follow.md)
+- [ ] [Page caching](page-caching.md)
 - [ ] [Robots.txt](robots-txt.md)
 - [ ] [Sitemap](sitemap.md)
 
@@ -56,7 +57,6 @@ Enjoy :tada:
 - [ ] [JavaScript caching](javascript-caching.md)
 - [ ] [JavaScript minification](javascript-minification.md)
 - [ ] [Lazy loading](lazy-loading.md)
-- [ ] [Page caching](page-caching.md)
 - [ ] [Page size](page-size.md)
 - [ ] [Server side performance](server-side-performance.md)
 - [ ] [Site loading speed](site-loading-speed.md)
