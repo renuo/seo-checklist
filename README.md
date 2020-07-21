@@ -15,6 +15,7 @@ Enjoy :tada:
 - [ ] [Crawl budget](crawl-budget.md)
 - [ ] [Navigation structure](navigation-structure.md)
 - [ ] [Noindex meta tag](noindex.md)
+- [ ] [Nofollow tag](no-follow.md)
 - [ ] [Robots.txt](robots-txt.md)
 - [ ] [Sitemap](sitemap.md)
 
