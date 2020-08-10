@@ -11,5 +11,5 @@ Disallow: /account
 
 ### Best practice
 * If a specific page should not be crawled, the use of "disallow" in the robots.txt file is recommended.
-* If you want to inform search engines not to index a specific page us the [noindex tag](noindex.md).
+* If you want to inform search engines not to index a specific page use the [noindex tag](noindex.md).
 * Check the [Search Console Help](https://support.google.com/webmasters/answer/6062608)
