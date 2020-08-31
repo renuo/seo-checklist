@@ -10,10 +10,9 @@ Using relevant keywords and text in the alt attribute can help both users and se
 <img src="img/a_cat_picture.jpg">
 
 //good
-<img src="img/a_cat_picture.jpg" alt="a lovely cat pcture">
+<img src="img/a_cat_picture.jpg" alt="a lovely cat picture">
 ```
 
 ### Best practice
-* Use image alt tags.
-* Use descriptive filenames in target language.
+* Use descriptive filenames as image alt tags in target language.
 * Use keywords in alt-tags in target language.
