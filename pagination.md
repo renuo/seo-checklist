@@ -4,6 +4,8 @@ The correct pagination of a page is a challenging and much discussed topic. Most
 
 ## Best practice
 
+* Avoid duplicate content.
+* Consider disallowing indexing of subpages [Block indexing](https://knowledge.hubspot.com/reports/how-do-i-block-pages-from-being-indexed-by-search-engines).
 * Each subpage should provide the Robots meta tag «index, follow».
 * Subpages, like all other pages, should refer to themselves by means of self-referential Canonical tags. Google always recommends self-referencing Canonical tags for more clarity.
 * Important content elements (e.g. for SEO) should only be on one page - the first - to prevent duplicate content.
