@@ -6,3 +6,4 @@ Many search engines rank pages based on how mobile-friendly they are. Making sur
 ## Best practice
 
 * Targets should be bigger than 48px x 48px and further apart than 8px. See more at https://web.dev/tap-targets/
+
