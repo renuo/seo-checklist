@@ -7,8 +7,9 @@ Hence, a concise, meaningful and descriptive title tag that accurately reflects 
 
 A page title ideally identifies the page uniquely. This usually results in constructs like
 
-> MyWebsite - About Us
-> MyWebsite - Features
+> 1. MyWebsite - About Us
+> 1. MyWebsite - Features
+> 1. MyWebsite - Pricing
 
 ```
 <head>
@@ -18,12 +19,14 @@ A page title ideally identifies the page uniquely. This usually results in const
 
 ## Best practice
 
-Some rules to follow when chosing a page title:
+Some rules to follow when chosing a page title (taken from mdn):
 
 > * Avoid one- or two-word titles. Use a descriptive phrase, or a term-definition pairing for glossary or reference-style pages.
 > * Search engines typically display about the first 55–60 characters of a page title. Text beyond that may be lost, so try not to have titles longer than that. If you must use a longer title, make sure the important parts come earlier and that nothing critical is in the part of the title that is likely to be dropped.
 > * Don't use "keyword blobs." If your title is just a list of words, algorithms often reduce your page's position in the search results.
 > * Try to make sure your titles are as unique as possible within your own site. Duplicate—or near-duplicate—titles can contribute to inaccurate search results.
+>
+> Source: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title#page_titles_and_seo
 
 Gnerally valid:
 
