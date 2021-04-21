@@ -2,7 +2,9 @@
 
 Page speed is an important factor in search engine rankings and overall site success. Pages that take longer than 5 seconds to load can lose up to 50% of users. Faster webpages result in higher traffic, better conversions and increased sales over slower loading pages.
 
-## Performance tests
+Follow the other best practises to improve the speed (Optimize images. Enable compression. Minify CSS, JavaScript, and HTML. Remove render-blocking JavaScript. etc.)
+
+## Best practice and links
 
 * [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
 * [WebPageTest](http://webpagetest.org/)
