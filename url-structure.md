@@ -9,5 +9,5 @@ important to be aware what your URL structure means for the content. For example
 
 ## Check
 
-* Do you build content dynamically based on query parameters (e.g. documents)?
+* Do you build content dynamically based on query parameters (e.g. documents or searches)?
 * Consult the [Google Developer Docs](https://developers.google.com/search/docs/advanced/guidelines/url-structure)
