@@ -6,7 +6,7 @@ Images often represent the largest part of downloaded bytes on a webpage and occ
 
 * Use small images (< 200 KB) that load quickly
 * Choose the right image format: 
-  * Instead of gifs use `<video>`: https://web.dev/replace-gifs-with-videos/
+  * Instead of gifs use `<video>`: e.g. [Video formats](https://github.com/renuo/seo-checklist/blob/performance-1/video-formats.md) and https://web.dev/replace-gifs-with-videos/
   * Fine detail with highest resolution: `png` or `SVG`
   * Optimizing a photo, screenshot, or a similar image asset: `jpeg`
   * If you use a WebView to render content in your platform-specific application: `WebP`
