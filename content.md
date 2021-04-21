@@ -8,4 +8,3 @@ The content of your website is crucial for good SEO. It is important that your c
 * Check keywords that are relevant to the topic you're writing about
 * Use [Google Trends](https://trends.google.com/trends/?geo=US) or Services like [PeopleAsk](https://alsoasked.com/)
 
-
