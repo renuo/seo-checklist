@@ -37,6 +37,7 @@ Together we create the best SEO checklist on github! :tada:
 - [ ] [Trailing slashes](trailing-slashes.md)
 - [ ] [Translated URLs](translated-urls.md)
 - [ ] [Favicons](favicons.md)
+- [ ] [Google Maps](google-maps.md)
 
 ### 🔐 Security
 - [ ] [HTTPs](https.md)
