@@ -4,9 +4,10 @@ Canonicalization describes how a site can use slightly different URLs for the sa
 
 It's good practice to place canonical links in the `head` to help Search Engines understand which URL is the original one.
 
-```
+```html
 <head>
     <link href="https://example.com/" rel="canonical" />
+    [...]
 </head>
 ```
 
