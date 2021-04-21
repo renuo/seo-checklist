@@ -19,7 +19,7 @@ Examples:
   Disallow: /account
   ```
 * Robots `meta` HTML tag:
-  ```
+  ```html
   <meta name="robots" content="noindex" />
   ```
 * `X-Robots` HTTP header:
@@ -31,7 +31,7 @@ Examples:
   X-Robots-Tag: unavailable_after: 25 Jun 2010 15:00:00 PST
   ```
 * `data-nosnippet` HTML attribute:
-  ```
+  ```html
   <p>This text can be shown in a snippet
   <span data-nosnippet>and this part would not be shown</span>.</p>
   ```
