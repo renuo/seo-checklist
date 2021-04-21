@@ -26,7 +26,7 @@ Together we create the best SEO checklist on github! :tada:
 - [ ] [Robots.txt](robots-txt.md)
 - [ ] [Sitemap](sitemap.md)
 
-### 🔎 Display on search engines	
+### 🔎 Display on search engines
 - [ ] [Heading tags](heading-tags.md)
 - [ ] [Image alt tags](image-alt-tags.md)
 - [ ] [Page title](page-title.md)
@@ -67,6 +67,7 @@ Together we create the best SEO checklist on github! :tada:
 - [ ] [Descriptive links](descriptive-links.md)
 - [ ] [Keywords](keywords.md)
 - [ ] [Pagination](pagination.md)
+- [ ] [Contrast Ratio](contrast-ratio.md)
 
 ### 📱 Mobile friendliness
 - [ ] [Media queries](media-queries.md)
