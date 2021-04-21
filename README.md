@@ -20,10 +20,10 @@ Together we create the best SEO checklist on github! :tada:
 - [ ] [Canonicalization](canonicalization.md)
 - [ ] [Crawl budget](crawl-budget.md)
 - [ ] [Navigation structure](navigation-structure.md)
-- [ ] [Noindex meta tag](noindex.md)
+- [ ] [URL structure](url-structure.md)
 - [ ] [Nofollow tag](no-follow.md)
 - [ ] [Page caching](page-caching.md)
-- [ ] [Robots.txt](robots-txt.md)
+- [ ] [Robots](robots-txt.md)
 - [ ] [Sitemap](sitemap.md)
 
 ### 🔎 Display on search engines
