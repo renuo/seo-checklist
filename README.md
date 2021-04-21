@@ -18,6 +18,7 @@ Together we create the best SEO checklist on github! :tada:
 
 ### 🧐 Readability for search engines bots
 - [ ] [Canonicalization](canonicalization.md)
+- [ ] [Crawl budget](crawl-budget.md)
 - [ ] [Navigation structure](navigation-structure.md)
 - [ ] [Nofollow tag](no-follow.md)
 - [ ] [Noindex meta tag](noindex.md)
