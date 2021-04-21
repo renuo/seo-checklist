@@ -6,3 +6,4 @@
 
 ### Keyword density
 * Check your keyword density: [Keyword density analysis tool](https://imninjas.com/seo-tools/keyword-density/).
+

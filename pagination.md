@@ -9,3 +9,4 @@ The correct pagination of a page is a challenging and much discussed topic. Most
 * Important content elements (e.g. for SEO) should only be on one page - the first - to prevent duplicate content.
 * The subpages all have the same Title Tag and Meta Description. Alternatively, the page number can also be shown in the meta description and or in the title tag.
 * In order to keep the click depth low for an enormous number of subpages, a suitable page linking strategy should be found. The reason for this is that Google does not usually crawl pages with a too high click depth, which means that they cannot be indexed.
+

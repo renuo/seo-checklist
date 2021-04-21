@@ -4,3 +4,4 @@ The content of your website is crucial for good SEO. It is important that your c
 ### Best practice
 * Create meaningful and unique content.
 * Use at least 300 words per page.
+
