@@ -3,3 +3,7 @@ Google's safe browsing API identifies websites that have malware or exhibit phis
 
 ### Best practice
 * Check regularly if your website is listed as suspicious (and if there is no malware or phishing activity found) with a [safe browsing checker](https://transparencyreport.google.com/safe-browsing/).
+
+### wg-operations
+
+The wg-operations team will discuss the possibility to automate this check
