@@ -22,9 +22,8 @@ Together we create the best SEO checklist on github! :tada:
 - [ ] [Navigation structure](navigation-structure.md)
 - [ ] [URL structure](url-structure.md)
 - [ ] [Nofollow tag](no-follow.md)
-- [ ] [Noindex meta tag](noindex.md)
 - [ ] [Page caching](page-caching.md)
-- [ ] [Robots.txt](robots-txt.md)
+- [ ] [Robots](robots-txt.md)
 - [ ] [Sitemap](sitemap.md)
 
 ### 🔎 Display on search engines	
