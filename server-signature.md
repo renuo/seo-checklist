@@ -4,3 +4,7 @@ A server signature is the public identity of your web server and contains sensit
 
 ## Best practice
 * Check if your server signature ist turned off with [this](https://seositecheckup.com/tools/server-signature-test) or [this](http://security.firewallmonitor.org) tool.
+
+# Check
+
+When using Cloudflare, the server signature will be turned off automatically for us. 
