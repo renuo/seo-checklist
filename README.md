@@ -2,7 +2,7 @@
 
 <b align="center">The checklist that covers the latest search engine optimisations to help you have a user friendly website that ranks high in search results!</b>
 
-Hi guys!
+Hi folks!
 
 As developers, we might not think about SEO right away, while developing a new project. But to create a great website that performs well and can be found by possible users, good SEO is always essential.
 
@@ -101,6 +101,8 @@ All CSS files used in your page must be minified. Minified files reduce page siz
 
 ### Check
 * Google Lighthouse can identify non-minified CSS resources.
+
+**Note:** Delivering assets with GZIP is actually already a very good form of minification.
 
 # Descriptive links
 Link descriptions, which are the clickable words in links, help users and search engines better understand your content.
