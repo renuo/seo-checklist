@@ -595,12 +595,6 @@ To manage what is shown in the search results, use Robots meta tag, `data-nosnip
 # Safe browsing
 Google's safe browsing API identifies websites that have malware or exhibit phishing activity. Any site containing malware or suspicious for phising activity is seen as a threat to the online community and is often penalized by search engines. 
 
-### Best practice
-* Check regularly if your website is listed as suspicious (and if there is no malware or phishing activity found) with a [safe browsing checker](https://transparencyreport.google.com/safe-browsing/).
-
-### wg-operations (for Renuoees only)
-The wg-operations team will discuss the possibility to automate this check.
-
 # SEO friendly URLs
 In order for URLs and links to be SEO friendly, they should contain keywords relevant to the page's topic, and contain no spaces, underscores or other characters. 
 You should avoid the use of parameters when possible, as they make URLs less inviting for users to click or share. 
