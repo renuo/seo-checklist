@@ -1,6 +1,8 @@
 <img width="100%" alt="renuochecklist2" src="https://user-images.githubusercontent.com/17065978/114165642-06b47580-992d-11eb-8bce-cb873e541869.png">
 
-<b align="center">The checklist that covers the latest search engine optimisations to help you have a user friendly website that ranks high in search results!</b>
+<b align="center">
+  The checklist that covers the latest search engine optimisations to help you have a user friendly website that ranks high in search results!
+</b>
 
 Hi folks!
 
