@@ -735,7 +735,7 @@ Tools like Newrelic should be installed on the application and monitored to iden
 <div style="break-before: page; page-break-before: always;"></div><h1 id="site-loading-speed"><a class="header" href="#site-loading-speed">Site loading speed</a></h1>
 <p>Page speed is an important factor in search engine rankings and overall site success. Pages that take longer than 5 seconds to load can lose up to 50% of users. Faster webpages result in higher traffic, better conversions and increased sales over slower loading pages.</p>
 <p>Follow the other best practices to improve the speed (Optimise images. Enable compression. Minify CSS, JavaScript, and HTML. Remove render-blocking JavaScript. etc.)</p>
-<h3 id="best-practice-35"><a class="header" href="#best-practice-35">Best practice</a></h3>
+<h2 id="best-practice-35"><a class="header" href="#best-practice-35">Best practice</a></h2>
 <ul>
 <li><a href="https://developers.google.com/speed/pagespeed/insights/">PageSpeed Insights</a></li>
 <li><a href="http://webpagetest.org/">WebPageTest</a></li>
@@ -748,11 +748,11 @@ Tools like Newrelic should be installed on the application and monitored to iden
 <li>XML format: containing the whole sitemap, <strong>not</strong> frequently checked by Google</li>
 <li>Atom/RSS format: containing small site updates, frequently checked by Google</li>
 </ul>
-<h3 id="best-practice-36"><a class="header" href="#best-practice-36">Best practice</a></h3>
+<h2 id="best-practice-36"><a class="header" href="#best-practice-36">Best practice</a></h2>
 <ul>
 <li>View the <a href="https://webmasters.googleblog.com/2014/10/best-practices-for-xml-sitemaps-rssatom.html">Google Webmaster Central Blog</a>.</li>
 </ul>
-<h3 id="check-11"><a class="header" href="#check-11">Check</a></h3>
+<h2 id="check-11"><a class="header" href="#check-11">Check</a></h2>
 <ul>
 <li>Does the website implement an XML sitemap?</li>
 <li>Does the website ping the search engine after a sitemap change?</li>
@@ -766,14 +766,14 @@ Tools like Newrelic should be installed on the application and monitored to iden
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="social-media-linking"><a class="header" href="#social-media-linking">Social media linking</a></h1>
 <p>A page should be connected to one or more of the popular social networks. Social signals have become increasingly important as ranking factors for search engines to validate a site's trustworthiness and authority.</p>
-<h3 id="best-practice-37"><a class="header" href="#best-practice-37">Best practice</a></h3>
+<h2 id="best-practice-37"><a class="header" href="#best-practice-37">Best practice</a></h2>
 <ul>
 <li>Link to social media.</li>
 <li>Use share options.</li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="structured-data"><a class="header" href="#structured-data">Structured data</a></h1>
 <p>Search engines use HTML microdata specifications (or structured data markups) to better understand the content of a site and create rich snippets in search results (which helps increase click-through rate to a site).</p>
-<h3 id="best-practice-38"><a class="header" href="#best-practice-38">Best practice</a></h3>
+<h2 id="best-practice-38"><a class="header" href="#best-practice-38">Best practice</a></h2>
 <ul>
 <li>View Google's guide for getting started with microdata: <a href="https://developers.google.com/search/docs/guides/intro-structured-data">How to structure data</a>.</li>
 <li>Check the <a href="https://developers.google.com/search/docs/guides/search-gallery">Google Search Gallery</a> for structured data you might want to use.</li>
@@ -783,25 +783,25 @@ Tools like Newrelic should be installed on the application and monitored to iden
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="trailing-slashes"><a class="header" href="#trailing-slashes">Trailing slashes</a></h1>
 <p>Trailing slashes at the level of a path are problematic because search engines consider them to be a different URL. <a href="https://example.com/fish">https://example.com/fish</a> does not equal <a href="https://example.com/fish/">https://example.com/fish/</a>. This situation should be avoided, as search engines may interpret such content as duplicate content.</p>
-<h3 id="best-practice-39"><a class="header" href="#best-practice-39">Best practice</a></h3>
+<h2 id="best-practice-39"><a class="header" href="#best-practice-39">Best practice</a></h2>
 <p>Set a Canonical link to the preferred URL variant so that search engines know which of the two URLs to index.
 If you use Rails check <a href="https://work.stevegrossi.com/2013/02/21/remove-trailing-slashes-in-your-rails-app/">https://work.stevegrossi.com/2013/02/21/remove-trailing-slashes-in-your-rails-app/</a></p>
-<h3 id="note"><a class="header" href="#note">Note</a></h3>
+<h2 id="note"><a class="header" href="#note">Note</a></h2>
 <p>Trailing slashes at the end of a hostname are no problem. <a href="http://www.example.com">http://www.example.com</a> equals <a href="http://www.example.com/">http://www.example.com/</a>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="simple-url-structures"><a class="header" href="#simple-url-structures">Simple URL structures</a></h1>
 <p>While it's important for to represent URLs in a user-friendly way (see <a href="seo-friendly-urls.html">SEO friendly URLs</a> it's also
 important to be aware what your URL structure means for the content. For example filters can produce duplicated content.</p>
-<h3 id="best-practice-40"><a class="header" href="#best-practice-40">Best practice</a></h3>
+<h2 id="best-practice-40"><a class="header" href="#best-practice-40">Best practice</a></h2>
 <ul>
 <li>Block robots-access to dynamically created search results (in <a href="robots-txt.html">robots-txt.md</a> or with <code>nofollow</code>).</li>
 </ul>
-<h3 id="check-12"><a class="header" href="#check-12">Check</a></h3>
+<h2 id="check-12"><a class="header" href="#check-12">Check</a></h2>
 <ul>
 <li>Do you build content dynamically based on query parameters (e.g. documents or searches)?</li>
 <li>Consult the <a href="https://developers.google.com/search/docs/advanced/guidelines/url-structure">Google Developer Docs</a></li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="translated-urls--how-to-handle-languages"><a class="header" href="#translated-urls--how-to-handle-languages">Translated URLs – How to handle languages</a></h1>
-<h3 id="best-practice-41"><a class="header" href="#best-practice-41">Best practice</a></h3>
+<h2 id="best-practice-41"><a class="header" href="#best-practice-41">Best practice</a></h2>
 <ul>
 <li>Keep the content for each language on separate URLs. Don't use cookies to show translated versions of the page. Consider cross-linking each language version of a page. That way, a French user who lands on the German version of your page can get to the right language version with a single click.</li>
 <li>Search engines use the content of the page to determine its language, but the URL itself provides human users with useful clues about the page's content.</li>
