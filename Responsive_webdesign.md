@@ -8,7 +8,7 @@ Media query techniques allow different presentation and content to be served dep
 * Consider limited network bandwith.
 * Test your mobile friendliness: [Search Console Test](https://search.google.com/test/mobile-friendly) and [Lighthouse](https://developers.google.com/web/tools/lighthouse/).
 
-### Code example
+## Code example
 
 ```css
 // This applies from 0px to 600px

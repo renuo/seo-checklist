@@ -2,7 +2,7 @@
 
 The correct pagination of a page is a challenging and much discussed topic. Most content management systems offer a solution, but it is not always suitable for SEO. In result individual pages can be excluded from the index.
 
-### Best practice
+## Best practice
 
 * Avoid duplicate content.
 * Consider disallowing indexing of subpages [Block indexing](https://knowledge.hubspot.com/reports/how-do-i-block-pages-from-being-indexed-by-search-engines).
