@@ -571,21 +571,9 @@ A clean navigation structure helps to indicate what information is valuable, and
 <li>Use server caching.</li>
 <li>Use browser caching: expires headers, cache-control headers.</li>
 </ul>
-<h1 id="page-size"><a class="header" href="#page-size">Page size</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="page-size"><a class="header" href="#page-size">Page size</a></h1>
 <p>A typical web page is made up of several files that may include HTML, CSS, Javascript, or image files, as well as other resources. The page size is made up of all the files that make up the page.</p>
 <h2 id="best-practice-27"><a class="header" href="#best-practice-27">Best practice</a></h2>
-<ul>
-<li>Optimise images (Resize). To improve the speed of your website it is important to consider compressing or resizing images to the recommended size per file of 200 KB.</li>
-<li>Avoid unnecessary custom fonts.</li>
-<li>Minify resources.</li>
-<li>Employ Content Delivery Networks (CDN) (For example Google Fonts).</li>
-<li>Remove old / duplicate code.</li>
-<li>Separate javascript and css per use-case (e.g. Admin Page needs upload / User doesn't).</li>
-<li>Move javascript loading to the bottom of the file in order to have HTML rendered before!</li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="page-size-1"><a class="header" href="#page-size-1">Page size</a></h1>
-<p>A typical web page is made up of several files that may include HTML, CSS, Javascript, or image files, as well as other resources. The page size is made up of all the files that make up the page.</p>
-<h2 id="best-practice-28"><a class="header" href="#best-practice-28">Best practice</a></h2>
 <ul>
 <li>Optimise images (Resize). To improve the speed of your website it is important to consider compressing or resizing images to the recommended size per file of 200 KB.</li>
 <li>Avoid unnecessary custom fonts.</li>
@@ -613,7 +601,7 @@ Hence, a concise, meaningful and descriptive title tag that accurately reflects 
  &lt;title&gt;Page Title&lt;/title&gt;
 &lt;/head&gt;
 </code></pre>
-<h3 id="best-practice-29"><a class="header" href="#best-practice-29">Best practice</a></h3>
+<h3 id="best-practice-28"><a class="header" href="#best-practice-28">Best practice</a></h3>
 <p>Some rules to follow when chosing a page title (taken from mdn):
 &gt;</p>
 <blockquote>
@@ -632,7 +620,7 @@ Hence, a concise, meaningful and descriptive title tag that accurately reflects 
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="pagination"><a class="header" href="#pagination">Pagination</a></h1>
 <p>The correct pagination of a page is a challenging and much discussed topic. Most content management systems offer a solution, but it is not always suitable for SEO. In result individual pages can be excluded from the index.</p>
-<h3 id="best-practice-30"><a class="header" href="#best-practice-30">Best practice</a></h3>
+<h3 id="best-practice-29"><a class="header" href="#best-practice-29">Best practice</a></h3>
 <ul>
 <li>Avoid duplicate content.</li>
 <li>Consider disallowing indexing of subpages <a href="https://knowledge.hubspot.com/reports/how-do-i-block-pages-from-being-indexed-by-search-engines">Block indexing</a>.</li>
@@ -643,7 +631,7 @@ Hence, a concise, meaningful and descriptive title tag that accurately reflects 
 <li>In order to keep the click depth low for an enormous number of subpages, a suitable page linking strategy should be found. The reason for this is that Google does not usually crawl pages with a too high click depth, which means that they cannot be indexed.</li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="responsive-webdesign"><a class="header" href="#responsive-webdesign">Responsive Webdesign</a></h1>
-<h3 id="best-practice-31"><a class="header" href="#best-practice-31">Best practice</a></h3>
+<h2 id="best-practice-30"><a class="header" href="#best-practice-30">Best practice</a></h2>
 <ul>
 <li>For public websites, your page should implement responsive design functionalities using the media query technique.
 Media query techniques allow different presentation and content to be served depending on the output device, helping ensure that your website renders optimally on all devices and platforms. The '@media' rule allows different style rules for different screen sizes.</li>
@@ -665,7 +653,7 @@ body {
 }
 
 </code></pre>
-<h3 id="best-practice-32"><a class="header" href="#best-practice-32">Best practice</a></h3>
+<h2 id="best-practice-31"><a class="header" href="#best-practice-31">Best practice</a></h2>
 <ul>
 <li>Always use <code>min-width</code>, never <code>max-width</code> and never ever both.</li>
 <li>Refactor old code which is not yet mobile first.</li>
@@ -676,7 +664,7 @@ Protect your page with a password if needed.</p>
 <p><code>robots.txt</code> is being used to manage crawler traffic and to avoid visits from inside your own page.
 Links from external pages will still show up in search engine result pages.</p>
 <p>To manage what is shown in the search results, use Robots meta tag, <code>data-nosnippet</code> and <code>X-Robots</code> HTTP header.</p>
-<h3 id="code-example-12"><a class="header" href="#code-example-12">Code example</a></h3>
+<h2 id="code-example-12"><a class="header" href="#code-example-12">Code example</a></h2>
 <ul>
 <li>
 <p><code>robots.txt</code></p>
@@ -708,7 +696,7 @@ X-Robots-Tag: unavailable_after: 25 Jun 2010 15:00:00 PST
 </code></pre>
 </li>
 </ul>
-<h3 id="best-practice-33"><a class="header" href="#best-practice-33">Best practice</a></h3>
+<h3 id="best-practice-32"><a class="header" href="#best-practice-32">Best practice</a></h3>
 <ul>
 <li>If a specific page should not be crawled, the use of &quot;disallow&quot; in the robots.txt file is recommended.</li>
 <li>Annotate your content with <a href="https://developers.google.com/search/docs/advanced/robots/robots_meta_tag">tags, attributes and headers</a></li>
@@ -726,7 +714,7 @@ X-Robots-Tag: unavailable_after: 25 Jun 2010 15:00:00 PST
 You should avoid the use of parameters when possible, as they make URLs less inviting for users to click or share.
 Search engines's suggestions for URL structure specify using hyphens or dashes (-) rather than underscores (_).
 Unlike underscores, search engines treat hyphens as separators between words in a URL.</p>
-<h3 id="best-practice-34"><a class="header" href="#best-practice-34">Best practice</a></h3>
+<h2 id="best-practice-33"><a class="header" href="#best-practice-33">Best practice</a></h2>
 <ul>
 <li>Provide clean URLs without fragment identifiers (# or #!).</li>
 <li>Use hyphens as word separators.</li>
@@ -738,7 +726,7 @@ Unlike underscores, search engines treat hyphens as separators between words in 
 <p>Server side performance can affect SEO heavily.
 A slow page increases jump rate of users and decreases the number of pages indexed by search engines. It has also bad effects on rating.
 Tools like Newrelic should be installed on the application and monitored to identify the slowest pages and increase performance.</p>
-<h3 id="best-practice-35"><a class="header" href="#best-practice-35">Best practice</a></h3>
+<h3 id="best-practice-34"><a class="header" href="#best-practice-34">Best practice</a></h3>
 <ul>
 <li>Avoid N + 1 Queries</li>
 <li>Follow framework and language best practices</li>
@@ -747,7 +735,7 @@ Tools like Newrelic should be installed on the application and monitored to iden
 </ul>
 <h1 id="server-signature"><a class="header" href="#server-signature">Server signature</a></h1>
 <p>A server signature is the public identity of your web server and contains sensitive information that could be used to exploit any known vulnerability. Turning your server signature OFF is considered a good security practice to avoid disclosure of what software versions you are running.</p>
-<h3 id="best-practice-36"><a class="header" href="#best-practice-36">Best practice</a></h3>
+<h3 id="best-practice-35"><a class="header" href="#best-practice-35">Best practice</a></h3>
 <ul>
 <li>Check if your server signature ist turned off with <a href="https://seositecheckup.com/tools/server-signature-test">this</a> or <a href="http://security.firewallmonitor.org">this</a> tool.</li>
 </ul>
@@ -755,7 +743,7 @@ Tools like Newrelic should be installed on the application and monitored to iden
 <p>When using Cloudflare, the server signature will be turned off automatically for us.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="server-signature-1"><a class="header" href="#server-signature-1">Server signature</a></h1>
 <p>A server signature is the public identity of your web server and contains sensitive information that could be used to exploit any known vulnerability. Turning your server signature OFF is considered a good security practice to avoid disclosure of what software versions you are running.</p>
-<h3 id="best-practice-37"><a class="header" href="#best-practice-37">Best practice</a></h3>
+<h3 id="best-practice-36"><a class="header" href="#best-practice-36">Best practice</a></h3>
 <ul>
 <li>Check if your server signature ist turned off with <a href="https://seositecheckup.com/tools/server-signature-test">this</a> or <a href="http://security.firewallmonitor.org">this</a> tool.</li>
 </ul>
@@ -764,7 +752,7 @@ Tools like Newrelic should be installed on the application and monitored to iden
 <div style="break-before: page; page-break-before: always;"></div><h1 id="site-loading-speed"><a class="header" href="#site-loading-speed">Site loading speed</a></h1>
 <p>Page speed is an important factor in search engine rankings and overall site success. Pages that take longer than 5 seconds to load can lose up to 50% of users. Faster webpages result in higher traffic, better conversions and increased sales over slower loading pages.</p>
 <p>Follow the other best practices to improve the speed (Optimise images. Enable compression. Minify CSS, JavaScript, and HTML. Remove render-blocking JavaScript. etc.)</p>
-<h3 id="best-practice-38"><a class="header" href="#best-practice-38">Best practice</a></h3>
+<h3 id="best-practice-37"><a class="header" href="#best-practice-37">Best practice</a></h3>
 <ul>
 <li><a href="https://developers.google.com/speed/pagespeed/insights/">PageSpeed Insights</a></li>
 <li><a href="http://webpagetest.org/">WebPageTest</a></li>
@@ -777,7 +765,7 @@ Tools like Newrelic should be installed on the application and monitored to iden
 <li>XML format: containing the whole sitemap, <strong>not</strong> frequently checked by Google</li>
 <li>Atom/RSS format: containing small site updates, frequently checked by Google</li>
 </ul>
-<h3 id="best-practice-39"><a class="header" href="#best-practice-39">Best practice</a></h3>
+<h3 id="best-practice-38"><a class="header" href="#best-practice-38">Best practice</a></h3>
 <ul>
 <li>View the <a href="https://webmasters.googleblog.com/2014/10/best-practices-for-xml-sitemaps-rssatom.html">Google Webmaster Central Blog</a>.</li>
 </ul>
@@ -795,14 +783,14 @@ Tools like Newrelic should be installed on the application and monitored to iden
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="social-media-linking"><a class="header" href="#social-media-linking">Social media linking</a></h1>
 <p>A page should be connected to one or more of the popular social networks. Social signals have become increasingly important as ranking factors for search engines to validate a site's trustworthiness and authority.</p>
-<h3 id="best-practice-40"><a class="header" href="#best-practice-40">Best practice</a></h3>
+<h3 id="best-practice-39"><a class="header" href="#best-practice-39">Best practice</a></h3>
 <ul>
 <li>Link to social media.</li>
 <li>Use share options.</li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="structured-data"><a class="header" href="#structured-data">Structured data</a></h1>
 <p>Search engines use HTML microdata specifications (or structured data markups) to better understand the content of a site and create rich snippets in search results (which helps increase click-through rate to a site).</p>
-<h3 id="best-practice-41"><a class="header" href="#best-practice-41">Best practice</a></h3>
+<h3 id="best-practice-40"><a class="header" href="#best-practice-40">Best practice</a></h3>
 <ul>
 <li>View Google's guide for getting started with microdata: <a href="https://developers.google.com/search/docs/guides/intro-structured-data">How to structure data</a>.</li>
 <li>Check the <a href="https://developers.google.com/search/docs/guides/search-gallery">Google Search Gallery</a> for structured data you might want to use.</li>
@@ -812,7 +800,7 @@ Tools like Newrelic should be installed on the application and monitored to iden
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="trailing-slashes"><a class="header" href="#trailing-slashes">Trailing slashes</a></h1>
 <p>Trailing slashes at the level of a path are problematic because search engines consider them to be a different URL. <a href="https://example.com/fish">https://example.com/fish</a> does not equal <a href="https://example.com/fish/">https://example.com/fish/</a>. This situation should be avoided, as search engines may interpret such content as duplicate content.</p>
-<h3 id="best-practice-42"><a class="header" href="#best-practice-42">Best practice</a></h3>
+<h3 id="best-practice-41"><a class="header" href="#best-practice-41">Best practice</a></h3>
 <p>Set a Canonical link to the preferred URL variant so that search engines know which of the two URLs to index.
 If you use Rails check <a href="https://work.stevegrossi.com/2013/02/21/remove-trailing-slashes-in-your-rails-app/">https://work.stevegrossi.com/2013/02/21/remove-trailing-slashes-in-your-rails-app/</a></p>
 <h3 id="note"><a class="header" href="#note">Note</a></h3>
@@ -820,7 +808,7 @@ If you use Rails check <a href="https://work.stevegrossi.com/2013/02/21/remove-t
 <div style="break-before: page; page-break-before: always;"></div><h1 id="simple-url-structures"><a class="header" href="#simple-url-structures">Simple URL structures</a></h1>
 <p>While it's important for to represent URLs in a user-friendly way (see <a href="seo-friendly-urls.html">SEO friendly URLs</a> it's also
 important to be aware what your URL structure means for the content. For example filters can produce duplicated content.</p>
-<h3 id="best-practice-43"><a class="header" href="#best-practice-43">Best practice</a></h3>
+<h3 id="best-practice-42"><a class="header" href="#best-practice-42">Best practice</a></h3>
 <ul>
 <li>Block robots-access to dynamically created search results (in <a href="robots-txt.html">robots-txt.md</a> or with <code>nofollow</code>).</li>
 </ul>
@@ -830,7 +818,7 @@ important to be aware what your URL structure means for the content. For example
 <li>Consult the <a href="https://developers.google.com/search/docs/advanced/guidelines/url-structure">Google Developer Docs</a></li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="translated-urls--how-to-handle-languages"><a class="header" href="#translated-urls--how-to-handle-languages">Translated URLs – How to handle languages</a></h1>
-<h3 id="best-practice-44"><a class="header" href="#best-practice-44">Best practice</a></h3>
+<h3 id="best-practice-43"><a class="header" href="#best-practice-43">Best practice</a></h3>
 <ul>
 <li>Keep the content for each language on separate URLs. Don't use cookies to show translated versions of the page. Consider cross-linking each language version of a page. That way, a French user who lands on the German version of your page can get to the right language version with a single click.</li>
 <li>Search engines use the content of the page to determine its language, but the URL itself provides human users with useful clues about the page's content.</li>
@@ -867,7 +855,7 @@ Alternative URLs can be on the same site or on another domain.</p>
 <p>More information here: <a href="https://support.google.com/webmasters/answer/182192?hl=en">https://support.google.com/webmasters/answer/182192?hl=en</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="url-redirects"><a class="header" href="#url-redirects">URL redirects</a></h1>
 <p>Redirects often cause search engine indexing issues and can also lead to some minor loading delays. Google recommends removing or keeping redirects to a minimum. One redirect may be acceptable, particularly if the URL is redirecting from a non-www version to its www version, or vice-versa.</p>
-<h3 id="best-practice-45"><a class="header" href="#best-practice-45">Best practice</a></h3>
+<h3 id="best-practice-44"><a class="header" href="#best-practice-44">Best practice</a></h3>
 <ul>
 <li>recommended for SEO:
 <ul>
@@ -883,7 +871,7 @@ Alternative URLs can be on the same site or on another domain.</p>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="video-formats"><a class="header" href="#video-formats">Video formats</a></h1>
 <p>Large GIFs are inefficient for delivering animated content. Consider using MPEG4/WebM videos for animations and PNG/WebP for static images instead of GIF to save network bytes.</p>
-<h3 id="best-practice-46"><a class="header" href="#best-practice-46">Best practice</a></h3>
+<h3 id="best-practice-45"><a class="header" href="#best-practice-45">Best practice</a></h3>
 <p>Check <a href="https://web.dev/replace-gifs-with-videos/">the following link</a> for the best practices for this topic.</p>
 <h3 id="code-example-14"><a class="header" href="#code-example-14">Code example</a></h3>
 <ul>
