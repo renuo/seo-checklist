@@ -2,7 +2,7 @@
 
 In addition to the Schema.org metadata it can be helpful to add support for Facebook’s Open Graph protocol. This metadata format improves the user experience when your content is shared on their corresponding social network.
 
-### Code example
+## Code example
 
 ```html
 <!DOCTYPE html>

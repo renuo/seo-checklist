@@ -7,7 +7,7 @@ Also, a good navigation can influence the results of sitelinks (a list of direct
 
 ![sitelinks](https://neilpatel.com/wp-content/uploads/2014/08/1-quicksprout-in-serps.png "sitelinks example from neilpatel.com")
 
-### Best practice
+## Best practice
 
 * Make your hierarchy logical.
 * Create a URL structure that follows your navigation hierarchy.

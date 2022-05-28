@@ -11,7 +11,7 @@ A page title ideally identifies the page uniquely. This usually results in const
 > 1. MyWebsite - Features
 > 1. MyWebsite - Pricing
 
-### Code example
+## Code example
 
 ```
 <head>

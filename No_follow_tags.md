@@ -4,7 +4,7 @@ For good search rankings, make sure to add the “nofollow” attribute to exter
 
 This is extremely useful in cases where you provide user generated content on your website, where anyone could write a comment or article containing links to boost their own website rankings.
 
-### Code example
+## Code example
 
 Normal link:
 

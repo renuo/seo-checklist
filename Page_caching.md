@@ -2,7 +2,7 @@
 
 A page cache saves dynamically generated pages and serves the pre-generated (cached) page to reduce server load and site loading time (by avoiding the re-loading and execution of PHP scripts).
 
-### Best practice
+## Best practice
 
 * Use server caching.
 * Use browser caching: expires headers, cache-control headers.
@@ -11,7 +11,7 @@ A page cache saves dynamically generated pages and serves the pre-generated (cac
 
 A typical web page is made up of several files that may include HTML, CSS, Javascript, or image files, as well as other resources. The page size is made up of all the files that make up the page.
 
-### Best practice
+## Best practice
 
 * Optimise images (Resize). To improve the speed of your website it is important to consider compressing or resizing images to the recommended size per file of 200 KB.
 * Avoid unnecessary custom fonts.
