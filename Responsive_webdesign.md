@@ -25,7 +25,7 @@ body {
 
 ```
 
-## Best practice
+## Important
 
 * Always use `min-width`, never `max-width` and never ever both.
 * Refactor old code which is not yet mobile first.

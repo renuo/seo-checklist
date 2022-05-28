@@ -2,11 +2,11 @@
 
 Large GIFs are inefficient for delivering animated content. Consider using MPEG4/WebM videos for animations and PNG/WebP for static images instead of GIF to save network bytes.
 
-### Best practice
+## Best practice
 
 Check [the following link](https://web.dev/replace-gifs-with-videos/) for the best practices for this topic.
 
-### Code example
+## Code example
 
 * Use MPEG4 as a legacy option
 
@@ -31,6 +31,6 @@ ffmpeg -i my-animation.gif -c vp9 -b:v 0 -crf 41 my-animation.webm
 </video>
 ```
 
-### Check
+## Check
 
 * Google lighthouse can identify issues with large GIF files.
