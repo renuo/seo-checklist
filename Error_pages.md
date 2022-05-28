@@ -6,6 +6,6 @@
 * Create custom 401 pages if you have sites which require admin rights.
 * Users should never be confused about what happened and where to go next.
 
-### Best practice
+## Best practice
 
 * Make sure your 404 page is unique and brings the user back to your homepage (check out our 404 page <https://www.renuo.ch/de/404>)
