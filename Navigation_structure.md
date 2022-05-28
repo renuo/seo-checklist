@@ -1,5 +1,6 @@
 # Navigation structure
-Users and search engines want to find relevant content as fast as possible. 
+
+Users and search engines want to find relevant content as fast as possible.
 A clean navigation structure helps to indicate what information is valuable, and bots can easily understand the hierarchy of important pages and less important ones.
 
 Also, a good navigation can influence the results of sitelinks (a list of direct links to pages on your website) in the search results.
@@ -7,6 +8,7 @@ Also, a good navigation can influence the results of sitelinks (a list of direct
 ![sitelinks](https://neilpatel.com/wp-content/uploads/2014/08/1-quicksprout-in-serps.png "sitelinks example from neilpatel.com")
 
 ### Best practice
+
 * Make your hierarchy logical.
 * Create a URL structure that follows your navigation hierarchy.
 * Keep the number of main categories between two and seven.
