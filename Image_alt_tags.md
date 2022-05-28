@@ -2,7 +2,7 @@
 
 An image alt tag or alt description is written text that appears in place of an image if an image cannot be displayed (e.g. due to broken image source, slow internet connection, etc.). The alt attribute provides alternative information, and it allows search engines to better crawl and rank the website. Using relevant keywords and text in the alt attribute can help both users and search engines better interpret the subject of an image.
 
-### Code example
+## Code example
 
 ```
 //good example
@@ -12,7 +12,7 @@ An image alt tag or alt description is written text that appears in place of an 
 <img src="img/a_cat_picture.jpg">
 ```
 
-### Best practice
+## Best practice
 
 * Use descriptive filenames as image alt tags in target language.
 * Use keywords in alt-tags in target language.

@@ -2,7 +2,7 @@
 
 Images often represent the largest part of downloaded bytes on a webpage and occupy a considerable part of the visible area. Therefore, image optimisation can often save the largest amount of bytes and achieve significant performance improvements for a website.
 
-### Best practice
+## Best practice
 
 * Use small images (< 200 KB) that load quickly
 * Choose the right image format:
@@ -16,11 +16,11 @@ Images often represent the largest part of downloaded bytes on a webpage and occ
 
 Source: [web.dev Fast load times - Optimise your images](https://web.dev/fast/#i18n.paths.fast.topics.optimize_your_images)
 
-### Check
+## Check
 
 * Google lighthouse can identify issues with image sizes
 
-### Code example
+## Code example
 
 Convert PNG to JPEG (settings from Google PageSpeed insights v4)
 

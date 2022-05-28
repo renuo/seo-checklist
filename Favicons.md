@@ -10,7 +10,7 @@ Tools that you can use to generate favicons for your website:
 * <https://www.favicon-generator.org/>
 * <https://realfavicongenerator.net/>
 
-### Best practice
+## Best practice
 
 * Ensure your site has a favicon for each page
 * The favicon should have enough contrast ratio

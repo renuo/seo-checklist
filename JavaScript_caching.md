@@ -5,7 +5,7 @@ any, will cache the JavaScript resources until the specified date (so that it do
 file from your server). This speeds up your site the next time returning visitors arrive at your site and require the
 same JavaScript resource.
 
-### Code example
+## Code example
 
 Cache larger files,
 eg.
