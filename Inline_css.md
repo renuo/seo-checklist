@@ -4,7 +4,7 @@
 
 Avoid inline CSS like `<p style="font-size: 16px">`: Inline CSS attributes unnecessarily increase page size, and can be moved to an external CSS stylesheet. Removing inline CSS properties can improve page loading time and make site maintenance easier.
 
-## Prefer external files over <style>-Tags
+## Prefer external files over `<style>`-Tags
 
 Prefer external files over style-Tags in the HTML:
 
