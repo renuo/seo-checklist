@@ -8,7 +8,7 @@ Links from external pages will still show up in search engine result pages.
 
 To manage what is shown in the search results, use Robots meta tag, `data-nosnippet` and `X-Robots` HTTP header.
 
-### Code example
+## Code example
 
 * `robots.txt`
 

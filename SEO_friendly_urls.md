@@ -5,7 +5,7 @@ You should avoid the use of parameters when possible, as they make URLs less inv
 Search engines's suggestions for URL structure specify using hyphens or dashes (-) rather than underscores (_).
 Unlike underscores, search engines treat hyphens as separators between words in a URL.
 
-### Best practice
+## Best practice
 
 * Provide clean URLs without fragment identifiers (# or #!).
 * Use hyphens as word separators.
