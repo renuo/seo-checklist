@@ -136,7 +136,7 @@
                     <main>
                         <h1 id="image-optimisation"><a class="header" href="#image-optimisation">Image optimisation</a></h1>
 <p>Images often represent the largest part of downloaded bytes on a webpage and occupy a considerable part of the visible area. Therefore, image optimisation can often save the largest amount of bytes and achieve significant performance improvements for a website.</p>
-<h3 id="best-practice"><a class="header" href="#best-practice">Best practice</a></h3>
+<h2 id="best-practice"><a class="header" href="#best-practice">Best practice</a></h2>
 <ul>
 <li>Use small images (&lt; 200 KB) that load quickly</li>
 <li>Choose the right image format:
@@ -152,11 +152,11 @@
 <li>Use image CDNs to optimise images</li>
 </ul>
 <p>Source: <a href="https://web.dev/fast/#i18n.paths.fast.topics.optimize_your_images">web.dev Fast load times - Optimise your images</a></p>
-<h3 id="check"><a class="header" href="#check">Check</a></h3>
+<h2 id="check"><a class="header" href="#check">Check</a></h2>
 <ul>
 <li>Google lighthouse can identify issues with image sizes</li>
 </ul>
-<h3 id="code-example"><a class="header" href="#code-example">Code example</a></h3>
+<h2 id="code-example"><a class="header" href="#code-example">Code example</a></h2>
 <p>Convert PNG to JPEG (settings from Google PageSpeed insights v4)</p>
 <pre><code>convert $IMG.png -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace sRGB $IMG.jpg
 </code></pre>
