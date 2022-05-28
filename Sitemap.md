@@ -7,11 +7,11 @@ There are two different kinds of sitemaps search engines can check:
 * XML format: containing the whole sitemap, **not** frequently checked by Google
 * Atom/RSS format: containing small site updates, frequently checked by Google
 
-### Best practice
+## Best practice
 
 * View the [Google Webmaster Central Blog](https://webmasters.googleblog.com/2014/10/best-practices-for-xml-sitemaps-rssatom.html).
 
-### Check
+## Check
 
 * Does the website implement an XML sitemap?
 * Does the website ping the search engine after a sitemap change?

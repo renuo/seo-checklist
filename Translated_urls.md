@@ -1,6 +1,6 @@
 # Translated URLs – How to handle languages
 
-### Best practice
+## Best practice
 
 * Keep the content for each language on separate URLs. Don't use cookies to show translated versions of the page. Consider cross-linking each language version of a page. That way, a French user who lands on the German version of your page can get to the right language version with a single click.
 * Search engines use the content of the page to determine its language, but the URL itself provides human users with useful clues about the page's content.

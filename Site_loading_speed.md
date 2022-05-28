@@ -4,7 +4,7 @@ Page speed is an important factor in search engine rankings and overall site suc
 
 Follow the other best practices to improve the speed (Optimise images. Enable compression. Minify CSS, JavaScript, and HTML. Remove render-blocking JavaScript. etc.)
 
-### Best practice
+## Best practice
 
 * [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
 * [WebPageTest](http://webpagetest.org/)
