@@ -141,25 +141,25 @@
 <li>Search engines use the content of the page to determine its language, but the URL itself provides human users with useful clues about the page's content.</li>
 <li>Recommended URL structures:
 <ul>
-<li><em>http://example.de</em></li>
+<li><em><a href="http://example.de">http://example.de</a></em></li>
 <li><em>de.example.com</em></li>
 <li><em>example.com/de</em></li>
 </ul>
 </li>
-<li>There is generally no need to &quot;hide&quot; the duplicates by disallowing crawling in a <code>robots.txt</code> file or by using a &quot;noindex&quot; robots meta tag. However, if you're providing the same content to the same users on different URLs (for instance, if both example.de/ and example.com/de/ show German language content for users in Germany), you should pick a preferred version and redirect (or use the rel=canonical link element) appropriately. In addition, you should follow the guidelines on rel-alternate-hreflang to make sure that the correct language or regional URL is served to searchers. </li>
+<li>There is generally no need to &quot;hide&quot; the duplicates by disallowing crawling in a <code>robots.txt</code> file or by using a &quot;noindex&quot; robots meta tag. However, if you're providing the same content to the same users on different URLs (for instance, if both example.de/ and example.com/de/ show German language content for users in Germany), you should pick a preferred version and redirect (or use the rel=canonical link element) appropriately. In addition, you should follow the guidelines on rel-alternate-hreflang to make sure that the correct language or regional URL is served to searchers.</li>
 </ul>
-<p>More information here: https://webmasters.googleblog.com/2011/12/new-markup-for-multilingual-content.html</p>
+<p>More information here: <a href="https://webmasters.googleblog.com/2011/12/new-markup-for-multilingual-content.html">https://webmasters.googleblog.com/2011/12/new-markup-for-multilingual-content.html</a></p>
 <h2 id="specifying-language-and-location"><a class="header" href="#specifying-language-and-location">Specifying language and location</a></h2>
-<p>The <code>hreflang</code> attribute can specify the language, optionally the country, and URLs of equivalent content. 
-By specifying these alternate URLs, our goal is to be able to consolidate signals for these pages, and to serve the appropriate URL to users in search. 
+<p>The <code>hreflang</code> attribute can specify the language, optionally the country, and URLs of equivalent content.
+By specifying these alternate URLs, our goal is to be able to consolidate signals for these pages, and to serve the appropriate URL to users in search.
 Alternative URLs can be on the same site or on another domain.</p>
 <h2 id="example-usage"><a class="header" href="#example-usage">Example usage</a></h2>
 <p>To explain how it works, let's look at some example URLs:</p>
 <ul>
-<li>http://www.example.com/ - contains the general homepage of a website, in Spanish</li>
-<li>http://es-es.example.com/ - is the version for users in Spain, in Spanish</li>
-<li>http://es-mx.example.com/ - is the version for users in Mexico, in Spanish</li>
-<li>http://en.example.com/ - is the generic English language version</li>
+<li><a href="http://www.example.com/">http://www.example.com/</a> - contains the general homepage of a website, in Spanish</li>
+<li><a href="http://es-es.example.com/">http://es-es.example.com/</a> - is the version for users in Spain, in Spanish</li>
+<li><a href="http://es-mx.example.com/">http://es-mx.example.com/</a> - is the version for users in Mexico, in Spanish</li>
+<li><a href="http://en.example.com/">http://en.example.com/</a> - is the generic English language version</li>
 </ul>
 <h3 id="code-example"><a class="header" href="#code-example">Code example</a></h3>
 <p>On all of these pages, we could use the following markup to specify language and optionally the region:</p>
@@ -168,8 +168,8 @@ Alternative URLs can be on the same site or on another domain.</p>
 &lt;link rel=&quot;alternate&quot; hreflang=&quot;es-MX&quot; href=&quot;http://es-mx.example.com/&quot; /&gt;
 &lt;link rel=&quot;alternate&quot; hreflang=&quot;en&quot; href=&quot;http://en.example.com/&quot; /&gt;
 </code></pre>
-<p>Keep in mind that all of these annotations are to be used on a per-URL basis. You should take care to use the specific URL, not the homepage, for both of these link elements. </p>
-<p>More information here: https://support.google.com/webmasters/answer/182192?hl=en</p>
+<p>Keep in mind that all of these annotations are to be used on a per-URL basis. You should take care to use the specific URL, not the homepage, for both of these link elements.</p>
+<p>More information here: <a href="https://support.google.com/webmasters/answer/182192?hl=en">https://support.google.com/webmasters/answer/182192?hl=en</a></p>
 
                     </main>
 

@@ -142,7 +142,8 @@ Links from external pages will still show up in search engine result pages.</p>
 <p>To manage what is shown in the search results, use Robots meta tag, <code>data-nosnippet</code> and <code>X-Robots</code> HTTP header.</p>
 <h3 id="code-example"><a class="header" href="#code-example">Code example</a></h3>
 <ul>
-<li><code>robots.txt</code>
+<li>
+<p><code>robots.txt</code></p>
 <pre><code>Sitemap: https://www.yourwebsite.ch/sitemap.xml
 User-agent: *
 Disallow: /kasse
@@ -150,11 +151,13 @@ Disallow: /cart
 Disallow: /account
 </code></pre>
 </li>
-<li>Robots <code>meta</code> HTML tag:
+<li>
+<p>Robots <code>meta</code> HTML tag:</p>
 <pre><code class="language-html">&lt;meta name=&quot;robots&quot; content=&quot;noindex&quot; /&gt;
 </code></pre>
 </li>
-<li><code>X-Robots</code> HTTP header:
+<li>
+<p><code>X-Robots</code> HTTP header:</p>
 <pre><code>HTTP/1.1 200 OK
 Date: Tue, 25 May 2010 21:42:43 GMT
 (…)
@@ -162,7 +165,8 @@ X-Robots-Tag: noarchive
 X-Robots-Tag: unavailable_after: 25 Jun 2010 15:00:00 PST
 </code></pre>
 </li>
-<li><code>data-nosnippet</code> HTML attribute:
+<li>
+<p><code>data-nosnippet</code> HTML attribute:</p>
 <pre><code class="language-html">&lt;p&gt;This text can be shown in a snippet
 &lt;span data-nosnippet&gt;and this part would not be shown&lt;/span&gt;.&lt;/p&gt;
 </code></pre>
