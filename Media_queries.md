@@ -3,7 +3,7 @@
 For public websites, your page should implement responsive design functionalities using the media query technique.
 Media query techniques allow different presentation and content to be served depending on the output device, helping ensure that your website renders optimally on all devices and platforms. The '@media' rule allows different style rules for different screen sizes. Use a mobile-first approach.
 
-### Code example
+## Code example
 
 ```css
 // This applies from 0px to 600px
