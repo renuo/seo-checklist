@@ -36,6 +36,7 @@
 ## K
 - [Keywords](Keywords.md)
 ## L
+- [Languages](languages.md)
 - [Lazy loading](Lazy_loading.md)
 ## M
 - [Media queries](Media_queries.md)
