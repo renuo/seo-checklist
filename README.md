@@ -17,6 +17,8 @@ We update this checklist regularly. Nevertheless, if you find any missing points
 
 Together we create the best SEO checklist on GitHub!
 
+If you are unsure about the SEO state of your website, you should run it trough the [SEO tool by Google](https://pagespeed.web.dev).
+
 ## B
 - [Backlinks](Backlinks.md)
 - [Brokenlinks](Broken_links.md)
