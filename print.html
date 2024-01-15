@@ -1,15 +1,17 @@
 <!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js light">
+<html lang="en" class="light" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>seo-checklist</title>
-        <meta name="robots" content="noindex" />
+        <meta name="robots" content="noindex">
+
+
         <!-- Custom HTML head -->
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+        <meta name="theme-color" content="#ffffff">
 
         <link rel="icon" href="favicon.svg">
         <link rel="shortcut icon" href="favicon.png">
@@ -17,25 +19,29 @@
         <link rel="stylesheet" href="css/general.css">
         <link rel="stylesheet" href="css/chrome.css">
         <link rel="stylesheet" href="css/print.css" media="print">
+
         <!-- Fonts -->
         <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="fonts/fonts.css">
+
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="highlight.css">
         <link rel="stylesheet" href="tomorrow-night.css">
         <link rel="stylesheet" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+
     </head>
-    <body>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -51,50 +57,81 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('no-js')
             html.classList.remove('light')
             html.classList.add(theme);
-            html.classList.add('js');
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
         </script>
 
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
                 <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> Intro</a></li><li class="chapter-item expanded "><a href="More_links.html"><strong aria-hidden="true">2.</strong> Helpful links</a></li><li class="chapter-item expanded "><a href="Backlinks.html"><strong aria-hidden="true">3.</strong> Backlinks</a></li><li class="chapter-item expanded "><a href="Broken_links.html"><strong aria-hidden="true">4.</strong> Brokenlinks</a></li><li class="chapter-item expanded "><a href="Canonicalization.html"><strong aria-hidden="true">5.</strong> Canonicalization</a></li><li class="chapter-item expanded "><a href="Content.html"><strong aria-hidden="true">6.</strong> Content</a></li><li class="chapter-item expanded "><a href="Contrast_ratio.html"><strong aria-hidden="true">7.</strong> Contrast Ratio</a></li><li class="chapter-item expanded "><a href="Crawl_budget.html"><strong aria-hidden="true">8.</strong> Crawl budget</a></li><li class="chapter-item expanded "><a href="CSS_caching.html"><strong aria-hidden="true">9.</strong> CSS caching</a></li><li class="chapter-item expanded "><a href="CSS_minification.html"><strong aria-hidden="true">10.</strong> CSS minification</a></li><li class="chapter-item expanded "><a href="Descriptive_links.html"><strong aria-hidden="true">11.</strong> Descriptive links</a></li><li class="chapter-item expanded "><a href="Error_pages.html"><strong aria-hidden="true">12.</strong> Error pages</a></li><li class="chapter-item expanded "><a href="Favicons.html"><strong aria-hidden="true">13.</strong> Favicons</a></li><li class="chapter-item expanded "><a href="Font_usage_formats.html"><strong aria-hidden="true">14.</strong> Font usage & formats</a></li><li class="chapter-item expanded "><a href="Google_maps.html"><strong aria-hidden="true">15.</strong> Google Maps</a></li><li class="chapter-item expanded "><a href="Heading_tags.html"><strong aria-hidden="true">16.</strong> Heading tags</a></li><li class="chapter-item expanded "><a href="HTML_compression.html"><strong aria-hidden="true">17.</strong> HTML compression</a></li><li class="chapter-item expanded "><a href="HTTPs.html"><strong aria-hidden="true">18.</strong> HTTPS</a></li><li class="chapter-item expanded "><a href="Image_alt_tags.html"><strong aria-hidden="true">19.</strong> Image alt tags</a></li><li class="chapter-item expanded "><a href="Image_caching.html"><strong aria-hidden="true">20.</strong> Image caching</a></li><li class="chapter-item expanded "><a href="Image_optimisation.html"><strong aria-hidden="true">21.</strong> Image optimisation</a></li><li class="chapter-item expanded "><a href="Inline_css.html"><strong aria-hidden="true">22.</strong> Inline CSS</a></li><li class="chapter-item expanded "><a href="JavaScript_caching.html"><strong aria-hidden="true">23.</strong> JavaScript Caching</a></li><li class="chapter-item expanded "><a href="JavaScript_minification.html"><strong aria-hidden="true">24.</strong> JavaScript minification</a></li><li class="chapter-item expanded "><a href="Keywords.html"><strong aria-hidden="true">25.</strong> Keywords</a></li><li class="chapter-item expanded "><a href="languages.html"><strong aria-hidden="true">26.</strong> Languages</a></li><li class="chapter-item expanded "><a href="Lazy_loading.html"><strong aria-hidden="true">27.</strong> Lazy loading</a></li><li class="chapter-item expanded "><a href="Media_queries.html"><strong aria-hidden="true">28.</strong> Media queries</a></li><li class="chapter-item expanded "><a href="Meta_description.html"><strong aria-hidden="true">29.</strong> Meta description</a></li><li class="chapter-item expanded "><a href="Mobile_friendly_tap_targets.html"><strong aria-hidden="true">30.</strong> Mobile-friendly tap targets</a></li><li class="chapter-item expanded "><a href="Navigation_structure.html"><strong aria-hidden="true">31.</strong> Navigation structure</a></li><li class="chapter-item expanded "><a href="No_follow_tags.html"><strong aria-hidden="true">32.</strong> No follow tags</a></li><li class="chapter-item expanded "><a href="Open_graph_properties.html"><strong aria-hidden="true">33.</strong> Open graph properties</a></li><li class="chapter-item expanded "><a href="Page_caching.html"><strong aria-hidden="true">34.</strong> Page caching</a></li><li class="chapter-item expanded "><a href="Page_size.html"><strong aria-hidden="true">35.</strong> Page size</a></li><li class="chapter-item expanded "><a href="Page_title.html"><strong aria-hidden="true">36.</strong> Page title</a></li><li class="chapter-item expanded "><a href="Pagination.html"><strong aria-hidden="true">37.</strong> Pagination</a></li><li class="chapter-item expanded "><a href="Responsive_webdesign.html"><strong aria-hidden="true">38.</strong> Responsive Webdesign</a></li><li class="chapter-item expanded "><a href="Robots.html"><strong aria-hidden="true">39.</strong> Robots</a></li><li class="chapter-item expanded "><a href="Safe_browsing.html"><strong aria-hidden="true">40.</strong> Safe browsing</a></li><li class="chapter-item expanded "><a href="SEO_friendly_urls.html"><strong aria-hidden="true">41.</strong> SEO friendly URLs</a></li><li class="chapter-item expanded "><a href="Server_side_performance.html"><strong aria-hidden="true">42.</strong> Server side performance</a></li><li class="chapter-item expanded "><a href="Server_signature.html"><strong aria-hidden="true">43.</strong> Server signature</a></li><li class="chapter-item expanded "><a href="Site_loading_speed.html"><strong aria-hidden="true">44.</strong> Site loading speed</a></li><li class="chapter-item expanded "><a href="Sitemap.html"><strong aria-hidden="true">45.</strong> Sitemap</a></li><li class="chapter-item expanded "><a href="Social_media_linking.html"><strong aria-hidden="true">46.</strong> Social media linking</a></li><li class="chapter-item expanded "><a href="Structured_data.html"><strong aria-hidden="true">47.</strong> Structured data</a></li><li class="chapter-item expanded "><a href="Trailing_slashes.html"><strong aria-hidden="true">48.</strong> Trailing slashes</a></li><li class="chapter-item expanded "><a href="Translated_urls.html"><strong aria-hidden="true">49.</strong> Translates URLs - How to handle languages</a></li><li class="chapter-item expanded "><a href="Simple_url_structures.html"><strong aria-hidden="true">50.</strong> URLS structures</a></li><li class="chapter-item expanded "><a href="URL_redirects.html"><strong aria-hidden="true">51.</strong> URL redirects</a></li><li class="chapter-item expanded "><a href="Video_formats.html"><strong aria-hidden="true">52.</strong> Video formats</a></li></ol>
             </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
         </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
 
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
-                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
-                        </button>
+                        </label>
                         <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -111,6 +148,7 @@
                         <a href="print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
+
                     </div>
                 </div>
 
@@ -124,8 +162,9 @@
                         </ul>
                     </div>
                 </div>
+
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -414,7 +453,7 @@ So if the website belongs to a business or other location that can be showing up
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="heading-tags"><a class="header" href="#heading-tags">Heading tags</a></h1>
 <p>HTML heading tags are titles or subtitles that you want to display on a webpage.</p>
-<p>Your webpage should be using at least one H1 and one H2 HTML header tag. Header tags are not visible to users, but help clarify and support the overall theme or purpose of your page to search engines.</p>
+<p>Your webpage should be using at least one H1 and one H2 HTML header tag.</p>
 <p>The H1 tag represents the most important heading, e.g., the title of the page or blog post.
 The H2 tag represents the second most important headings on the webpages, e.g., the subheadings.</p>
 <h2 id="code-example-2"><a class="header" href="#code-example-2">Code example</a></h2>
@@ -1007,31 +1046,43 @@ important to be aware what your URL structure means for the content. For example
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
+
+
                         <div style="clear: both"></div>
                     </nav>
                 </div>
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
             </nav>
 
         </div>
 
-        <script type="text/javascript">
+
+
+
+        <script>
             window.playground_copyable = true;
         </script>
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
 
         <!-- Custom JS scripts -->
-        <script type="text/javascript">
+
+        <script>
         window.addEventListener('load', function() {
             window.setTimeout(window.print, 100);
         });
         </script>
+
+    </div>
     </body>
 </html>
